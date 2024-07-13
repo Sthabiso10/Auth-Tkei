@@ -16,6 +16,7 @@ class HomeView extends StackedView<HomeViewModel> {
     Widget? child,
   ) {
     return Scaffold(
+      backgroundColor: Colors.purple,
       appBar: AppBar(
         centerTitle: true,
         title: Text('Profile Page'),
